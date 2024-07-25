@@ -1,0 +1,75 @@
+# GMS (Core)
+product/priv-app/ConfigUpdater/ConfigUpdater.apk;PRESIGNED
+product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;OVERRIDES=OneTimeInitializer;PRESIGNED
+product/priv-app/GoogleRestorePrebuilt/GoogleRestorePrebuilt.apk;PRESIGNED
+product/priv-app/Phonesky/Phonesky.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCore/m/independent/AndroidPlatformServices.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk;OVERRIDES=NetworkRecommendation;PRESIGNED
+product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_AdsDynamite.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_CronetDynamite.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_DynamiteLoader.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_DynamiteModulesA.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_DynamiteModulesC.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_GoogleCertificates.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_MapsDynamite.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_MeasurementDynamite.apk;PRESIGNED
+product/etc/security/fsverity/gms_fsverity_cert.der
+product/etc/security/fsverity/play_store_fsi_cert.der
+system/app/GoogleExtShared/GoogleExtShared.apk;OVERRIDES=ExtShared;PRESIGNED
+system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk;OVERRIDES=PackageInstaller;PRESIGNED
+system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNED
+
+# GMS (Web)
+product/app/WebViewGoogle-Stub/WebViewGoogle-Stub.apk;OVERRIDES=webview;PRESIGNED
+product/app/WebViewGoogle/WebViewGoogle.apk.gz
+product/app/Chrome-Stub/Chrome-Stub.apk;OVERRIDES=webview,Browser2,Jelly;PRESIGNED
+product/app/Chrome/Chrome.apk.gz
+product/app/TrichromeLibrary-Stub/TrichromeLibrary-Stub.apk;PRESIGNED
+product/app/TrichromeLibrary/TrichromeLibrary.apk.gz
+product/priv-app/Velvet/Velvet.apk;OVERRIDES=QuickSearchBox;PRESIGNED
+
+# GMS (Comm suite)
+product/app/GoogleContacts/GoogleContacts.apk;OVERRIDES=Contacts;PRESIGNED
+product/etc/permissions/com.google.android.dialer.support.xml
+product/framework/com.google.android.dialer.support.jar;PRESIGNED
+product/priv-app/GoogleDialer/GoogleDialer.apk;OVERRIDES=Dialer;PRESIGNED
+product/priv-app/PrebuiltBugle/PrebuiltBugle.apk;OVERRIDES=messaging;PRESIGNED
+
+# GMS (Applications)
+product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk;OVERRIDES=Calendar2,Calendar,Etar;PRESIGNED
+product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
+product/app/Photos/Photos.apk;OVERRIDES=Gallery2;PRESIGNED
+product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk;OVERRIDES=DeskClock;PRESIGNED
+product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=Recorder;PRESIGNED
+
+# Permissions
+product/etc/default-permissions/default-permissions.xml
+product/etc/permissions/com.android.omadm.service.xml
+product/etc/permissions/com.google.android.dialer.support.xml
+product/etc/permissions/com.google.android.odad.xml
+product/etc/permissions/com.google.omadm.trigger.xml
+product/etc/permissions/privapp-permissions-google-p.xml
+product/etc/permissions/split-permissions-google.xml
+system/etc/permissions/privapp-permissions-google.xml
+system_ext/etc/permissions/privapp-permissions-google-se.xml
+
+# Sysconfig
+product/etc/preferred-apps/google.xml
+product/etc/sysconfig/allowlist_com.android.omadm.service.xml
+product/etc/sysconfig/game_service.xml
+product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
+product/etc/sysconfig/google-staged-installer-whitelist.xml
+product/etc/sysconfig/google.xml
+product/etc/sysconfig/google_build.xml
+product/etc/sysconfig/nexus.xml
+product/etc/sysconfig/pixel_experience_2017.xml
+product/etc/sysconfig/pixel_experience_2018.xml
+product/etc/sysconfig/pixel_experience_2019.xml
+product/etc/sysconfig/pixel_experience_2019_midyear.xml
+product/etc/sysconfig/pixel_experience_2020.xml
+product/etc/sysconfig/pixel_experience_2020_midyear.xml
+product/etc/sysconfig/pixel_experience_2021_midyear.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml
+product/etc/sysconfig/quick_tap.xml
