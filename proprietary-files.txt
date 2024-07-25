@@ -39,7 +39,7 @@ product/priv-app/PrebuiltBugle/PrebuiltBugle.apk;OVERRIDES=messaging;PRESIGNED
 # GMS (Applications)
 product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk;OVERRIDES=Calendar2,Calendar,Etar;PRESIGNED
 product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
-product/app/Photos/Photos.apk;OVERRIDES=Gallery2;PRESIGNED
+product/app/Photos/Photos.apk;OVERRIDES=Gallery2,Glimpse;PRESIGNED
 product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk;OVERRIDES=DeskClock;PRESIGNED
 product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=Recorder;PRESIGNED
 
