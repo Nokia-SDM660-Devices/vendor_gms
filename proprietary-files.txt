@@ -62,6 +62,7 @@ product/etc/sysconfig/google-staged-installer-whitelist.xml
 product/etc/sysconfig/google.xml
 product/etc/sysconfig/google_build.xml
 product/etc/sysconfig/nexus.xml
+product/etc/sysconfig/pixel_2016_exclusive.xml|f92443f76f9af566813e08495f00c37a882af824
 product/etc/sysconfig/pixel_experience_2017.xml
 product/etc/sysconfig/pixel_experience_2018.xml
 product/etc/sysconfig/pixel_experience_2019.xml
