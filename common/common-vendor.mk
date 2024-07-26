@@ -63,6 +63,7 @@ PRODUCT_PACKAGES += \
     GoogleDialer \
     GoogleOneTimeInitializer \
     GoogleRestorePrebuilt \
+    PartnerSetupPrebuilt \
     Phonesky \
     PrebuiltBugle \
     PrebuiltGmsCoreSc \
@@ -76,8 +77,11 @@ PRODUCT_PACKAGES += \
     PrebuiltGmsCoreSc_MeasurementDynamite \
     AndroidPlatformServices \
     RecorderPrebuilt \
+    SetupWizardPrebuilt \
     Velvet \
     GoogleServicesFramework \
+    NexusLauncherRelease \
+    PixelSetupWizard \
     com.google.android.dialer.support
 
 include vendor/gms/common/overlays.mk

@@ -1,7 +1,5 @@
 # GMS (Core)
 product/priv-app/ConfigUpdater/ConfigUpdater.apk;PRESIGNED
-product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;OVERRIDES=OneTimeInitializer;PRESIGNED
-product/priv-app/GoogleRestorePrebuilt/GoogleRestorePrebuilt.apk;PRESIGNED
 product/priv-app/Phonesky/Phonesky.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/independent/AndroidPlatformServices.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk;OVERRIDES=NetworkRecommendation;PRESIGNED
@@ -18,6 +16,13 @@ product/etc/security/fsverity/play_store_fsi_cert.der
 system/app/GoogleExtShared/GoogleExtShared.apk;OVERRIDES=ExtShared;PRESIGNED
 system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk;OVERRIDES=PackageInstaller;PRESIGNED
 system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNED
+
+# GMS (SetupWizards)
+product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;OVERRIDES=OneTimeInitializer;PRESIGNED
+product/priv-app/GoogleRestorePrebuilt/GoogleRestorePrebuilt.apk;PRESIGNED
+product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk;PRESIGNED
+product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk;OVERRIDES=Provision;PRESIGNED
+system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
 
 # GMS (Web)
 product/app/WebViewGoogle-Stub/WebViewGoogle-Stub.apk;OVERRIDES=webview;PRESIGNED
@@ -42,6 +47,7 @@ product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
 product/app/Photos/Photos.apk;OVERRIDES=Gallery2,Glimpse;PRESIGNED
 product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk;OVERRIDES=DeskClock;PRESIGNED
 product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=Recorder;PRESIGNED
+system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk;apkOVERRIDES=Launcher3,Launcher3QuickStep,TrebuchetQuickStep;PRESIGNED
 
 # Permissions
 product/etc/default-permissions/default-permissions.xml
