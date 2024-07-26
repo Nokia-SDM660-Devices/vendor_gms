@@ -49,6 +49,16 @@ product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk;OVERRIDES=DeskCl
 product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=Recorder;PRESIGNED
 system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk;apkOVERRIDES=Launcher3,Launcher3QuickStep,TrebuchetQuickStep;PRESIGNED
 
+# GMS (Lock Screen)
+system_ext/priv-app/SystemUIClocks-BigNum/SystemUIClocks-BigNum.apk
+system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk
+system_ext/priv-app/SystemUIClocks-Flex/SystemUIClocks-Flex.apk
+system_ext/priv-app/SystemUIClocks-Growth/SystemUIClocks-Growth.apk
+system_ext/priv-app/SystemUIClocks-Inflate/SystemUIClocks-Inflate.apk
+system_ext/priv-app/SystemUIClocks-Metro/SystemUIClocks-Metro.apk
+system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk
+system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk
+
 # Permissions
 product/etc/default-permissions/default-permissions.xml
 product/etc/permissions/com.android.omadm.service.xml

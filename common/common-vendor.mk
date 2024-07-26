@@ -82,6 +82,14 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     NexusLauncherRelease \
     PixelSetupWizard \
+    SystemUIClocks-BigNum \
+    SystemUIClocks-Calligraphy \
+    SystemUIClocks-Flex \
+    SystemUIClocks-Growth \
+    SystemUIClocks-Inflate \
+    SystemUIClocks-Metro \
+    SystemUIClocks-NumOverlap \
+    SystemUIClocks-Weather \
     com.google.android.dialer.support
 
 include vendor/gms/common/overlays.mk
